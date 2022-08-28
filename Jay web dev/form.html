@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h1>This is Form</h1>
+    <form action="backend.php">
+        <div>
+            Name: <input type="text" name="myName">
+        </div>
+        <br>
+        <div>
+            Roll no.: <input type="number" name="myRollno">
+        </div>
+        <br>
+        <div>
+            Email: <input type="email" name="myEmail">
+        </div>
+        <br>
+        <div>
+            Date: <input type="date" name="myDate">
+        </div>
+        <br>
+        <!-- helps to focus on the particular data -->
+        <div>
+            <label for="Available">Available?:</label>
+            <input type="checkbox" name="myAvailable" id="Available">
+        </div>
+        <br>
+        <div>
+            Gender: Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender">
+            Other <input type="radio" name="myGender">
+        </div>
+        <br>
+
+        <div>
+            <!-- creat a box to write about anything -->
+
+            Why do you watch hentai? <br> <textarea name="textname" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+
+        <div>
+            <label for="Hentai">Hentai</label>
+            <select name="Hentaitype" id="Hentai">
+                <option value="Naruto">Naruto</option>
+                <option value="Jujutsu Kaisen">Jujutsu Kaisen</option>
+                <option value="One Piece">One Piece</option>
+                <option value="Rental Girlfriend">Rental Girlfriend</option>
+                <option value="Attack on Taitans">Attack on Taitans</option>
+            </select>
+        </div>
+        <br>
+
+        <div>
+            <input type="submit" value="submit now">
+            <input type="reset" value="reset now">
+        </div>
+
+        <!-- Alt+arrow key=move line -->
+
+    </form>
+
+
+</body>
+
+
+</html>
